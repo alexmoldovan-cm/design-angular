@@ -1,0 +1,98 @@
+/*texto gestion productos*/
+.gestion-productos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:#706D54;
+  }
+  
+  /*estilo caja form*/
+  form {
+    background: #DBDBDB;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #00000033;
+    width: 500px;
+    text-align: center;
+  }
+  
+  /*texto formulario*/
+  label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #706D54;
+  }
+  
+  /*bordes formulario*/
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #706D54;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /*distancia botones*/
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  /*diseño botones general*/
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /*color boton agregar*/
+  .add-btn {
+    width: 100%;
+    padding: 10px;
+    background: #706D54;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+  /*color bootn editar*/
+  .edit-btn {
+    background: #FFA500;;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /*color bootn eliminar*/
+  .delete-btn {
+    background: #DC3545;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /*hover al pasar ratón*/
+  button:hover {
+    background: #C9B194;
+  }
+  

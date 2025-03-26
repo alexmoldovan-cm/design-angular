@@ -1,0 +1,56 @@
+/* Contenedor principal */
+.contenedor {
+    width: 80%;
+    margin: 90px auto;
+    padding: 30px;
+    background-color:#DBDBDB;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #00000033;
+  }
+  
+  /*estilo texto información*/
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #706D54;
+  }
+  
+  /*estilo tabla*/
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /*espacios entre tablas*/
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #706D54;
+  }
+  
+  /*cabecera tabla*/
+  table th {
+    font-weight: bold;
+    color: #DBDBDB;
+    background-color: #706D54;
+  }
+  
+  /*recuadro pequeño del id*/
+  table td:first-child {
+    background-color: #A08963;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  /*estilo cuando pasas el ratón*/
+  table tbody tr:hover {
+    background-color: #A08963;
+  }
+  
+ 

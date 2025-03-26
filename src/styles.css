@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+/*misma fuente para toda la pagina*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*quitar scroll de la pagina*/
+    overflow: hidden;
+
+  }
+/*fondo para toda la pagina*/
+  body{
+    background-image: url("assets/images/bw.jpg");
+  }
